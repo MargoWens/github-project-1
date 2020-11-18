@@ -1,8 +1,19 @@
-.wow {
-  white-space: normal;
+body {
+  margin: 0;
 }
 
-.h {
-  color: tomato;
-  font-size: 30px;
+.canvas {
+  max-width: 2000px;
+  height: 800px;
+
+  background-image: url("https://image.flaticon.com/icons/svg/2909/2909923.svg"),
+    url("https://image.flaticon.com/icons/svg/2847/2847383.svg"),
+    url("https://image.flaticon.com/icons/svg/2909/2909673.svg"),
+    url("https://s.tcdn.co/e3a/876/e3a87689-707f-3495-b94a-8ee96e2538e5/39.png"),
+    url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg");
+
+  background-size: 80px, 100px, 150px, 130px, cover;
+  background-repeat: no-repeat;
+  background-position: top 120px right 130px, top 270px left 130px, center,
+    100px 60px, center;
 }
